@@ -1,0 +1,12 @@
+table{
+border-collapse: separate; border: 2px solid green; border-spacing: 10px 10px;
+}
+.od {
+  text-indent: 23px;
+}
+.c {
+    text-align: center;
+   } 
+   hr {
+ border-color: pink
+}

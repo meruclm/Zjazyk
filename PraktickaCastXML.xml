@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projekt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PraktickaCast4.xsd">
+<p>
+<informace>
+<uvod>Data k praktické části BP</uvod>
+
+<spolecnost>
+	<nazev1>Liftcomp Almankar</nazev1>
+	<typ_firmy>s.r.o</typ_firmy>
+	<zeme>Kazachstán</zeme>
+	<mesto>Almaty</mesto>
+	<charakteristika>Společnost se zabývá prodejem a obsluhou výtahů</charakteristika>
+</spolecnost>
+
+<data1 kategorie="Výtahy"> 
+      <model id="ID-1a">
+      <nazev>Ideal 1a</nazev>
+      <odkaz>http://liftcomp.com/ru_id-1a-28.html</odkaz>
+      <vyrobce firma_vyrobce="Liftcomp"/>
+      <typ_vytahu model1="Osobní"/>
+      <cena>1 000 000</cena>
+      <delka_dopravy_do_Almaty>7 dnu</delka_dopravy_do_Almaty>
+      <naklady_na_skladovani_1_kusu> 200 000</naklady_na_skladovani_1_kusu>
+      <strop>Rovný, elektrostatické, bodové světlo</strop>
+      <varianty_strop>CS-01</varianty_strop>
+      <nosnost>320-1000 kg</nosnost>
+      <rychlost>1 m/s</rychlost>
+      <patra>2-16</patra>
+      <regulator>Mikroprocesorem, plně automatické</regulator>
+      <trakce>Převodové, bezpřevodové, hydraulické</trakce>
+      <dvere>Automatické ovládání</dvere>
+      <operacni_panel>Nerezový povrch,ukazatel,šíp,tlačítko</operacni_panel>
+      <zrcadlo>Poloviční velikost</zrcadlo>
+      <steny>Elektrostatické práškové lakování</steny>
+      <varianty_barev_podlazi>FP-01, FP-02, FP-03</varianty_barev_podlazi>
+      <vetrani>Sací ventilátor</vetrani>
+    </model>
+</data1>
+
+<data2 kategorie="Výtahy"> 
+      <model id="EL-1a">
+      <nazev>Elegant 1a</nazev>
+      <odkaz>http://liftcomp.com/ru_el-1a-36.html</odkaz>
+      <vyrobce firma_vyrobce="Liftcomp"/>
+      <typ_vytahu model1="Osobní"/>
+      <cena>1 000 000</cena>
+      <delka_dopravy_do_Almaty>7 dnu</delka_dopravy_do_Almaty>
+      <naklady_na_skladovani_1_kusu>200 000</naklady_na_skladovani_1_kusu>
+      <strop>Závěsné, nerezové oceli</strop>
+      <varianty_strop>CF-01, CF-02, CF-03</varianty_strop>
+      <nosnost >320-1000 kg</nosnost>
+      <rychlost>1 m/s</rychlost>
+      <patra>2-16</patra>
+      <regulator>Mikroprocesorem, plně automatické</regulator>
+      <trakce>Převodové, bezpřevodové, hydraulické</trakce>
+      <dvere>Automatické ovládání</dvere>
+      <operacni_panel>Nerezový povrch,ukazatel,šíp,tlačítko</operacni_panel>
+      <zrcadlo>Poloviční velikost</zrcadlo>
+      <steny>Laminát</steny>
+      <varianty_barev_podlazi>FG-01, FG-02, FG-03</varianty_barev_podlazi>
+      <vetrani>Sací ventilátor</vetrani> 
+    </model>
+</data2>
+
+<data3 kategorie="Prodej výtahů"> 
+  	<kam>Atyrau</kam>
+	  <model2 id="ID-1a"/>
+    <nazev1>Ideal-1a</nazev1>
+	  <kupujici kupujicí="podnik"/>
+    <nazev_kupujici>Zhogary s.r.o</nazev_kupujici>
+    <pocet>3</pocet>
+    <distance>2744 km</distance>
+    <distance_na_mape>https://www.distancecalculator.net/from-almaty-to-atyrau</distance_na_mape>
+    <delka_dopravy>3 dny</delka_dopravy>
+    <obsluha>Ne</obsluha>
+    <naklady_na_nakup>900 000</naklady_na_nakup>
+    <naklady_na_skladovani>600 000</naklady_na_skladovani>
+    <dni_ve_sklade>1</dni_ve_sklade>
+</data3>
+
+</informace>
+
+<zpracovano>
+	<jmeno>Meruyert</jmeno>
+	<prijmeni>Zhaksylyk</prijmeni>
+	<fakulta>PEF</fakulta>
+  <obor>Systémové inženýrství</obor>
+  <rok>2018</rok>
+</zpracovano>
+</p>
+</projekt>

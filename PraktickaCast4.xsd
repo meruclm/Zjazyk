@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" vc:minVersion="1.1">
+  <xsd:element name="projekt" type="projektType"/>
+  <xsd:complexType name="projektType">
+    <xsd:sequence>
+      <xsd:element name="p" type="pType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="pType">
+    <xsd:sequence>
+      <xsd:element name="informace" type="informaceType"/>
+      <xsd:element name="zpracovano" type="zpracovanoType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+   <xsd:complexType name="informaceType">
+    <xsd:sequence>
+      <xsd:element name="uvod" type="xsd:string"/>
+      <xsd:element name="spolecnost" type="spolecnostType"/>
+      <xsd:element name="data1" type="data1Type"/>
+      <xsd:element name="data2" type="data2Type"/>
+      <xsd:element name="data3" type="data3Type"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+ <xsd:complexType name="spolecnostType">
+    <xsd:sequence>
+      <xsd:element name="nazev1" type="xsd:string"/>
+      <xsd:element name="typ_firmy" type="xsd:string"/>
+      <xsd:element name="zeme" type="xsd:string"/>
+      <xsd:element name="mesto" type="xsd:string"/>
+      <xsd:element name="charakteristika" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+ <xsd:complexType name="data1Type">
+    <xsd:sequence>
+      <xsd:element name="model" type="modelType"/>
+    </xsd:sequence>
+    <xsd:attribute name="kategorie" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:complexType name="modelType">
+    <xsd:sequence>
+      <xsd:element name="nazev" type="xsd:string"/>
+      <xsd:element name="odkaz" type="xsd:string"/>
+      <xsd:element name="vyrobce" type="vyrobceType"/>
+      <xsd:element name="typ_vytahu" type="typ_vytahuType"/>
+      <xsd:element name="cena" type="xsd:string"/>
+      <xsd:element name="delka_dopravy_do_Almaty" type="xsd:string"/>
+      <xsd:element name="naklady_na_skladovani_1_kusu" type="xsd:string"/>
+      <xsd:element name="strop" type="xsd:string"/>
+      <xsd:element name="varianty_strop" type="xsd:string"/>
+      <xsd:element name="nosnost" type="xsd:string"/>
+      <xsd:element name="rychlost" type="xsd:string"/>
+      <xsd:element name="patra" type="xsd:string"/>
+      <xsd:element name="regulator" type="xsd:string"/>
+      <xsd:element name="trakce" type="xsd:string"/>
+      <xsd:element name="dvere" type="xsd:string"/>
+      <xsd:element name="operacni_panel" type="xsd:string"/>
+      <xsd:element name="zrcadlo" type="xsd:string"/>
+      <xsd:element name="steny" type="xsd:string"/>
+      <xsd:element name="varianty_barev_podlazi" type="xsd:string"/>
+      <xsd:element name="vetrani" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="data2Type">
+    <xsd:sequence>
+      <xsd:element name="model" type="modelType"/>
+    </xsd:sequence>
+    <xsd:attribute name="kategorie" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:attribute name="id" type="xsd:string"/>
+
+  <xsd:complexType name="typ_vytahuType">
+    <xsd:attribute name="model1" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:complexType name="vyrobceType">
+    <xsd:attribute name="firma_vyrobce" type="xsd:string"/>
+  </xsd:complexType>
+
+ 
+
+  <xsd:complexType name="data3Type">
+    <xsd:sequence>
+      <xsd:element name="kam" type="xsd:string"/>
+      <xsd:element name="model2" type="modelType2"/>
+      <xsd:element name="nazev1" type="xsd:string"/>
+      <xsd:element name="kupujici" type="kupujiciType"/>
+      <xsd:element name="nazev_kupujici" type="xsd:string"/>
+      <xsd:element name="pocet" type="xsd:int"/>
+      <xsd:element name="distance" type="xsd:string"/>
+      <xsd:element name="distance_na_mape" type="xsd:string"/>
+      <xsd:element name="delka_dopravy" type="xsd:string"/>
+      <xsd:element name="obsluha" type="xsd:string"/>
+      <xsd:element name="naklady_na_nakup" type="xsd:string"/>
+      <xsd:element name="naklady_na_skladovani" type="xsd:string"/>
+      <xsd:element name="dni_ve_sklade" type="xsd:int"/>
+    </xsd:sequence>
+    <xsd:attribute name="kategorie" type="xsd:string"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="kupujiciType">
+    <xsd:attribute name="kupujicí" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:complexType name="modelType2">
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+
+ 
+ 
+  <xsd:complexType name="zpracovanoType">
+    <xsd:sequence>
+      <xsd:element name="jmeno" type="xsd:string"/>
+      <xsd:element name="prijmeni" type="xsd:string"/>
+      <xsd:element name="fakulta" type="xsd:string"/>
+      <xsd:element name="obor" type="xsd:string"/>
+      <xsd:element name="rok" type="xsd:int"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  </xsd:schema>
