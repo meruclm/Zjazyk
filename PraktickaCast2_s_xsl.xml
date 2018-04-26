@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="PraktickaCast2.xsl"?>
+
+<informace>
+
+<spolecnost>
+	<nazev1>Liftcomp Almankar</nazev1>
+	<typ_firmy>s.r.o</typ_firmy>
+	<zeme>Kazachstán</zeme>
+	<mesto>Almaty</mesto>
+	<charakteristika>Společnost se zabývá prodejem a obsluhou výtahů</charakteristika>
+</spolecnost>
+
+<zpracovano>
+	<jmeno>Meruyert</jmeno>
+	<prijmeni>Zhaksylyk</prijmeni>
+	<fakulta>PEF</fakulta>
+  <obor>Systémové inženýrství</obor>
+  <rok>2018</rok>
+</zpracovano>
+</informace>
